@@ -46,7 +46,7 @@ The analysis of the election show that:
   - Arapahoe county accounted for 6.7% of the vote and 24,801 total votes.
   Output of the election results can be viewed here:
   
-  ![Results](Resources/results.PNG)
+  ![Results](Election_Analysis/resources/results.PNG)
   
 # Challenge Summary
 This script could be changed if more data was provided. Additional functionality could include filtering for zip codes or other geographical data. Filtering for additional data could allow for insights into how votes are distributed by a variety of other factors. 
