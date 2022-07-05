@@ -2,12 +2,14 @@
 
 ## Overview
 The purpose of this project is to complete tasks for an election audit of a congressional election including:
-
-Calculating the total number of votes cast.
-Obtaining a complete list of candidates who received votes.
-Calculating the total number of votes each candidate received. 
-Calculating the percentage of votes each candidate won.
-Determining the winner of the election based on the popular vote.
+-Determine the winner of the election based on popular vote.
+-Get a list of all candidates in the election who received votes.
+-Determine the total number of votes cast.
+-Calculate percentage of votes for each candidate
+-Calculate total number of votes each candidate received.
+-Get a list of all counties which contributed votes.
+-Calculate percentage of votes by county.
+-Determine which county accounted for largest percentage of votes.
 
 ## Resources
 - Data source: elections_results.csv
@@ -35,6 +37,5 @@ The analysis of the election show that:
   - Denver county accounted for 82.8% of the vote and 306,055 total votes.
   - Arapahoe county accounted for 6.7% of the vote and 24,801 total votes.
   
-## Challenge Overview
-
 # Challenge Summary
+This script could be changed if more data was provided. Additional functionality could include filtering for zip codes or other geographical data. Filtering for additional data could allow for insights into how votes are distributed by a variety of other factors. 
