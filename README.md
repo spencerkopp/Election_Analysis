@@ -44,6 +44,7 @@ The analysis of the election show that:
   - Jefferson county accounted for 10.5% of the vote and 38,855 total votes.
   - Denver county accounted for 82.8% of the vote and 306,055 total votes.
   - Arapahoe county accounted for 6.7% of the vote and 24,801 total votes.
+  
   Output of the election results can be viewed here:
   
   <img width="278" alt="Results" src="https://user-images.githubusercontent.com/107224097/177251607-1b468d2a-c9a7-445b-8cef-fb06149a61b2.PNG">
