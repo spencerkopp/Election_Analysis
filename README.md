@@ -2,13 +2,21 @@
 
 ## Overview
 The purpose of this project is to complete tasks for an election audit of a congressional election including:
+
 -Determine the winner of the election based on popular vote.
+
 -Get a list of all candidates in the election who received votes.
+
 -Determine the total number of votes cast.
+
 -Calculate percentage of votes for each candidate
+
 -Calculate total number of votes each candidate received.
+
 -Get a list of all counties which contributed votes.
+
 -Calculate percentage of votes by county.
+
 -Determine which county accounted for largest percentage of votes.
 
 ## Resources
