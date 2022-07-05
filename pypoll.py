@@ -32,6 +32,7 @@ winning_percentage = 0
 # 2: Track the largest county and county voter turnout.
 largest_county_turnout = ""
 largest_number_turnout = 0
+winning_count2 = 0
 
 
 # Read the csv and convert it into a list of dictionaries
@@ -141,25 +142,25 @@ with open(file_to_save, "w") as txt_file:
         # Determine if the votes is greater than the winning count.
 
         # Determine winning vote count, winning percentage, and candidate.
-        if (votes > winning_count) and (vote_percentage > winning_percentage):
+        if (votes > winning_count2) and (vote_percentage > winning_percentage):
             # If true then set winning_count = votes and winning_percent =
             # vote_percentage.
-            winning_count = votes
+            winning_count2 = votes
             # And, set the winning_candidate equal to the candidate's name.
-            winning_candidate = candidate_name
             winning_percentage = vote_percentage
+            winning_candidate = candidate_name
+            
 
     # Print the winning candidate (to terminal)
     winning_candidate_summary = (
         f"-------------------------\n"
         f"Winner: {winning_candidate}\n"
-        f"Winning Vote Count: {winning_count:,}\n"
+        f"Winning Vote Count: {winning_count2:,}\n"
         f"Winning Percentage: {winning_percentage:.1f}%\n"
         f"-------------------------\n")
-    print(winning_candidate_summary)
-
-    # Save the winning candidate's name to the text file
     txt_file.write(winning_candidate_summary)
+    print(winning_candidate_summary)
+    # Save the winning candidate's name to the text file
     # Using the open() function with the "w" mode we will write data to the file.
     #open(file_to_save, "w")
     # Use the open statement to open the file as a text file.
