@@ -26,6 +26,14 @@ The analysis of the election show that:
   - Raymon Anthony Doane received 3.1% of the vote and 11,606 total votes.
 - The winner of the election was:
   - Diana DeGette, who won 73.8% of the votes and 272,892 total votes.
+ - The counties in this electin included:
+  - Jefferson 
+  - Denver
+  - Arapahoe
+- The county results were:
+  - Jefferson county accounted for 10.5% of the vote and 38,855 total votes.
+  - Denver county accounted for 82.8% of the vote and 306,055 total votes.
+  - Arapahoe county accounted for 6.7% of the vote and 24,801 total votes.
   
 ## Challenge Overview
 
